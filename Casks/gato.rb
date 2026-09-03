@@ -12,7 +12,7 @@ cask "gato" do
     regex(/"version"\s*:\s*"([^"]+)"/i)
   end
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
   depends_on arch: :arm64
 
   app "gato.app"
