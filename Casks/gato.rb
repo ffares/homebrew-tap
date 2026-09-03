@@ -4,7 +4,7 @@ cask "gato" do
 
   url "https://fares.net/gato/gato-#{version}.dmg"
   name "gato"
-  desc "Terminal with whiskers: tabs, splits, SSH logins and a widget panel"
+  desc "Native macOS terminal with tabs, splits, SSH logins and a widget panel"
   homepage "https://fares.net/gato/"
 
   livecheck do

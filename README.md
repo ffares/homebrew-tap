@@ -4,7 +4,7 @@ Homebrew casks for [fares.net](https://fares.net) apps.
 
 ## gato
 
-A terminal with whiskers, for macOS. <https://fares.net/gato/>
+A native macOS terminal. <https://fares.net/gato/>
 
 ```bash
 brew install --cask ffares/tap/gato
