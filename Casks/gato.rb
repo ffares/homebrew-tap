@@ -1,6 +1,6 @@
 cask "gato" do
-  version "1.0.4"
-  sha256 "57c79de4b21644e40c99ea79f0702967791484b31a47078d1b00662d7a095f59"
+  version "1.0.5"
+  sha256 "4112d88468fc15250ba6437588f58916edcf4330f7b35b9fdb2030994391fa3d"
 
   url "https://fares.net/gato/gato-#{version}.dmg"
   name "gato"
