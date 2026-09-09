@@ -1,10 +1,10 @@
 cask "gato" do
-  version "1.0.14"
-  sha256 "cd62ab396539bf34d4e9c559b32987b8f254a2582e95f047deb6daf1b15271ce"
+  version "1.1.1"
+  sha256 "5f8da466e8c6ac01e5daa903f704eccf796fe2202915c1046368a83e958e4a69"
 
   url "https://github.com/ffares/mac-apps/releases/download/gato-v#{version}/gato-#{version}.dmg"
   name "gato"
-  desc "Terminal with tabs, splits, SSH logins and a widget panel"
+  desc "Native macOS terminal with tabs, splits, SSH logins and a widget panel"
   homepage "https://fares.net/gato/"
 
   livecheck do
@@ -18,9 +18,9 @@ cask "gato" do
   app "gato.app"
 
   zap trash: [
-    "~/.config/gato",
     "~/Library/Application Support/gato",
-    "~/Library/Preferences/net.fares.gato.plist",
     "~/Library/Saved Application State/net.fares.gato.savedState",
+    "~/Library/Preferences/net.fares.gato.plist",
+    "~/.config/gato",
   ]
 end
