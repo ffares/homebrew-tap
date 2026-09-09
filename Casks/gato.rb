@@ -1,6 +1,6 @@
 cask "gato" do
-  version "1.1.1"
-  sha256 "5f8da466e8c6ac01e5daa903f704eccf796fe2202915c1046368a83e958e4a69"
+  version "1.0.15"
+  sha256 "d6c1a8273ab498482fcca447fb9dfa30e16a2cb29d868c2c521b03b365c9937e"
 
   url "https://github.com/ffares/mac-apps/releases/download/gato-v#{version}/gato-#{version}.dmg"
   name "gato"
