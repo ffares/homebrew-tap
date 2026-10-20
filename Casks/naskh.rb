@@ -1,10 +1,10 @@
 cask "naskh" do
-  version "0.2.0"
-  sha256 "abc549acf8e7e26c48fed15e476d7da790b9c4f5448678b9dbeb3b61792dec16"
+  version "0.3.1"
+  sha256 "9c5032ddc3a7d6a780b0873e9173a96c6732c99e4063918ee7f11ebd97d4678d"
 
   url "https://github.com/ffares/mac-apps/releases/download/naskh-v#{version}/naskh-#{version}.dmg"
   name "Naskh"
-  desc "Private clipboard history, templates, and a floating file shelf"
+  desc "Private clipboard history, screenshot capture, and annotation tools"
   homepage "https://fares.net/naskh/"
 
   livecheck do
